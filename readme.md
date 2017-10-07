@@ -1,6 +1,6 @@
 Steps for Bluemix:
-	bluemix api https://api.ng.bluemix.net
-	bluemix login
-	bluemix cf push
-	bluemix cf target -o namitha93 -s dev
-	blue mix cf push
+	1)bluemix api https://api.ng.bluemix.net
+	2)bluemix login
+	3)bluemix cf push
+	4)bluemix cf target -o ORG -s DEV
+	5)blue mix cf push
