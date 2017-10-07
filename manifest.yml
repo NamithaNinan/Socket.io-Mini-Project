@@ -1,0 +1,7 @@
+applications:
+- name: iTalentCorp-Cisco
+  memory: 256M
+  disk_quota: 512M
+  buildpack: nodejs_buildpack
+  domain: mybluemix.net
+  command: node index.js 
