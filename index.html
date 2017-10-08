@@ -19,7 +19,6 @@
             $('#press').click(function(){
                 var checked=$("button").attr("class");
                 socket.emit('pressed button', checked);
-
                 return false;
             });
             
@@ -31,7 +30,8 @@
                    $("button").attr("class", "btn btn-info");   
                 }
                 
-            })
+            });
+            
         });
     </script>
   <body>
